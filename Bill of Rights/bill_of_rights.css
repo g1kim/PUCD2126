@@ -3,7 +3,6 @@ background-color:#033556;
  h1{
    font-family: Verdana, san-serif;
    font-size: 80px;color:white;
- 	 font-weight: thick, outline;
  	 text-align: center;
    border: 15px solid coral;
    animation: border 5s infinite;
@@ -20,7 +19,7 @@ background-color:#033556;
  p{
    font-family: verdana;
    margin: 70px;color:white;
-  font-size: 15px;
+   font-size: 15px;
  }
  ol{
    font-family: verenda;
@@ -29,3 +28,4 @@ background-color:#033556;
    border-width: 5px;
    border-color: #dbbcd4;
    margin: 40px;
+ }
