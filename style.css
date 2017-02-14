@@ -1,0 +1,12 @@
+@import
+url(link href="https://fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i|Questrial|Quicksand:300,400,500,700" rel="stylesheet")
+.h1{
+  font-family: 'Quicksand', sans-serif, bold;
+}
+.h2{
+  font-family: 'Quciksand', sans-serif, light;
+}
+li{
+  font-family: 'Arsenal', sans-serif, regular;
+
+}
