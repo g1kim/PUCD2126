@@ -8,9 +8,7 @@ h1{
   font-size: 90px;
 
 }
-div {
-  border: 1px solid #333;
-}
+
 
 [p] {
   font-family: georgia;
@@ -33,6 +31,7 @@ div {
   - child ( > )
   - descendant selector (  )
 */
+
 
 
 
