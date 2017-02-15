@@ -14,7 +14,8 @@ div {
 
 [p] {
   font-family: georgia;
-  border: 10px green dashed;
+
+
 }
 
 #container {
@@ -32,20 +33,13 @@ div {
   - child ( > )
   - descendant selector (  )
 */
+
+
+
 p + p {
-  font-style: italic;
-}
 
-#foo ~ span {
-  background-color: black;
-  color: white;
-}
+  color: steelblue;
 
-#container > p > span {
-}
-
-#container span {
-  font-family: fantasy;
 }
 
 /*
