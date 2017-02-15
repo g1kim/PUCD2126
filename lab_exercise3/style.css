@@ -1,0 +1,78 @@
+
+*{
+margin: 20px; padding: 20px;
+}
+h1{
+  font-family: arial;
+  text-align: center;
+  font-size: 90px;
+
+}
+div {
+  border: 1px solid #333;
+}
+
+[p] {
+  font-family: georgia;
+  border: 10px green dashed;
+}
+
+#container {
+  border-radius: 25px;
+
+    border: 20px solid lavender;
+    padding: 10px;
+}
+
+
+/*
+  combinators
+  - adjacent sibling selector ( + )
+  - general sibling ( ~ )
+  - child ( > )
+  - descendant selector (  )
+*/
+p + p {
+  font-style: italic;
+}
+
+#foo ~ span {
+  background-color: black;
+  color: white;
+}
+
+#container > p > span {
+}
+
+#container span {
+  font-family: fantasy;
+}
+
+/*
+  pseudo-elements
+  ::after
+  ::before
+  ::first-letter
+  ::first-line
+  ::selection
+  ::backdrop
+*/
+h1:before,
+h1:after{
+  content: url(flower.jpg);
+}
+
+p:first-letter {
+  font-size: 20px
+}
+
+
+
+/*
+  puseudo-classes
+*/
+
+p:hover {
+  color: white;
+  background-color: grey;
+}
