@@ -1,0 +1,22 @@
+*{
+background-color: black;
+text-align: center;
+
+}
+
+.text{
+  font-family: helvetica;
+
+  font-size: 20px;
+  color: white;
+  padding: 200px;
+}
+
+p:hover:after {
+    content: url(river.gif); /* no need for qoutes */
+    display: block;
+    position: relative;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}

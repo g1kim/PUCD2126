@@ -1,0 +1,35 @@
+*{
+
+background-color: black;
+text-align: center;
+
+}
+
+.text{
+  font-family: helvetica;
+
+  font-size: 20px;
+  color: white;
+  padding: 200px;
+}
+
+p:hover:after {
+    content: url(paris.gif); /* no need for qoutes */
+    display: block;
+    position: relative;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/**a:hover
+{
+    background-image: url('image/circle.PNG');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height:20px
+    width:100px;
+    display:block;
+}**/

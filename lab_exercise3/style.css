@@ -9,9 +9,15 @@ h1{
 
 }
 
+p + p {
+
+  color: steelblue;
+
+}
 
 [p] {
   font-family: georgia;
+
 
 
 }
@@ -35,11 +41,7 @@ h1{
 
 
 
-p + p {
 
-  color: steelblue;
-
-}
 
 /*
   pseudo-elements
@@ -64,6 +66,7 @@ p:first-letter {
 /*
   puseudo-classes
 */
+
 
 p:hover {
   color: white;

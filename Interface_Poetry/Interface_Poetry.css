@@ -1,0 +1,15 @@
+*{
+  background-color: black;
+  text-align: center;
+  }
+p{
+  color:white;
+}
+p:hover:after {
+    content: url(star.gif); /* no need for qoutes */
+    display: block;
+    position: relative;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
