@@ -1,0 +1,10 @@
+body{
+  background: url(star1.gif);
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.text{
+  color: white;
+}
