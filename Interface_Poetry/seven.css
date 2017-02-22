@@ -9,7 +9,7 @@ color: pink;
 font-family: 'Amiko', sans-serif;
 font-size: 23px;
 
-animation: color 5s infinite;
+animation: color 2s infinite;
 }
 @keyframes color {
   35% {color: lightblue;}
