@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Amiko');
 
-body {
+body{
   background-image:url("water.gif");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center fixed;
-  background-size: cover;
+  background-size: auto;
 }
 
-a{
-  vertical-align: middle;
-  중간어떻게만듬?????????????????
-}
+
 div {
 
     font-size: 30px
@@ -39,26 +36,34 @@ div {
   background-color: skyblue;
   animation: my1move 15s infinite;
   left:100px;
+  display:inline;
 }
 #div2 {
   animation-timing-function: ease;
+  background-color: cornflowerblue;
   animation: my2move 18s infinite;
   left:300px;
+  display:inline;
 }
 #div3 {
   animation-timing-function: ease-in;
+  background-color: turquoise;
   animation: my3move 13s infinite;
   left:600px;
+  display:inline;
 }
 #div4 {
   animation-timing-function: ease-out;
+  background-color: grey;
   animation: my4move 20s infinite;
   left:900px;
+  display:inline;
 }
 #div5 {
   animation-timing-function: ease-in-out;
   animation: my5move 25s infinite;
   left:1100px;
+  display:inline;
 }
 
 @keyframes my1move {
