@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko');
+
 body {
   background-image:url("water.gif");
   background-repeat: no-repeat;
   background-position: center fixed;
   background-size: cover;
-   }
+}
+
 a{
   vertical-align: middle;
   중간어떻게만듬?????????????????
@@ -12,11 +15,25 @@ div {
 
     font-size: 30px
     font-weight: bold;
-    font-style: georgia;
+    font-family: 'Amiko', sans-serif;
     position: relative;
+    color: white;
 
    }
+   #up{
+     display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 20px;
+       margin-bottom: -30px;
+   }
 
+#down{
+     display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: -30px;
+   }
 #div1 {
   animation-timing-function: linear;
   background-color: skyblue;

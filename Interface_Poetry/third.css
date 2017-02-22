@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 *{
 background-color: black;
 text-align: center;
@@ -5,11 +6,14 @@ text-align: center;
 }
 
 .text{
-  font-family: helvetica;
+  font-family: 'Indie Flower', cursive;
 
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   padding: 200px;
+}
+#river{
+  color: blue;
 }
 
 p:hover:after {
@@ -19,4 +23,18 @@ p:hover:after {
     bottom: 0px;
     margin-right: auto;
     margin-left: auto;
+}
+#up{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: -50px;
+}
+
+#down{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
 }

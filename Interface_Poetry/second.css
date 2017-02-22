@@ -27,7 +27,23 @@ p:hover:after {
     margin-right: auto;
     margin-left: auto;
 }
+#river{
+  color: #2b5d92;
+}
+#up{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
 
+#down{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
 
 
 /**a:hover
