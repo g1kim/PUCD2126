@@ -14,9 +14,9 @@ function init(){
 
 
      function draw(){
-         c.fillStyle = 'black';
-         c.strokeStyle = 'black';
-         c.fillRect(container.x,container.y,container.width,container.height);
+         c.fillStyle = 'yellow';
+         c.strokeStyle = 'yellow';
+         c.strokeRect(container.x,container.y,container.width,container.height);
          //c.clearRect(container.x,container.y,container.width,container.height);
          //c.strokeRect(container.x,container.y,container.width,container.height);
 
