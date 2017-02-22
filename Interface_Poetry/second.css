@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 *{
 
 background-color: black;
@@ -6,11 +7,16 @@ text-align: center;
 }
 
 .text{
-  font-family: helvetica;
+  font-family: 'Indie Flower', cursive;
 
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   padding: 200px;
+}
+span{
+  font-family: 'Indie Flower', cursive;
+  color: skyblue;
+
 }
 
 p:hover:after {
