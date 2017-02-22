@@ -10,60 +10,69 @@ body{
 
 div {
 
-    font-size: 30px
-    font-weight: bold;
-    font-family: 'Amiko', sans-serif;
-    position: relative;
-    color: white;
+  font-family: 'Amiko', sans-serif;
+  color:white;
+
+  position: relative;
 
    }
    #up{
-     display: block;
-       margin-left: auto;
-       margin-right: auto;
-       margin-top: 20px;
-       margin-bottom: -30px;
+     position: absolute;
+    top:10px;
+    left:700px;
+
    }
 
 #down{
-     display: block;
-       margin-left: auto;
-       margin-right: auto;
-       margin-top: -30px;
+  position: absolute;
+  top:600px;
+  left:700px;
    }
 #div1 {
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
   background-color: skyblue;
   animation: my1move 15s infinite;
-  left:100px;
+  left:20px;
   display:inline;
+  font-size: 20px;
 }
 #div2 {
   animation-timing-function: ease;
   background-color: cornflowerblue;
   animation: my2move 18s infinite;
-  left:300px;
+  left:100px;
   display:inline;
+  font-size: 20px;
 }
 #div3 {
   animation-timing-function: ease-in;
   background-color: turquoise;
   animation: my3move 13s infinite;
-  left:600px;
+  left:200px;
   display:inline;
+  font-size: 20px;
 }
 #div4 {
   animation-timing-function: ease-out;
   background-color: grey;
   animation: my4move 20s infinite;
-  left:900px;
+  left:250px;
   display:inline;
+  font-size: 20px;
 }
 #div5 {
-  animation-timing-function: ease-in-out;
-  animation: my5move 25s infinite;
-  left:1100px;
-  display:inline;
+  animation-timing-function: linear;
+  animation: my5move 20s infinite;
+  left:400px;
+  background-color: thistle;
+  display: inline;
+  font-size: 35px;
+}
+#arrow{
+  animation: bounce 1s infinite alternate;
+  position: absolute;
+  left:100px;
+  top:300px;
 }
 
 @keyframes my1move {
@@ -87,4 +96,8 @@ div {
 @keyframes my5move {
     from {top: 0px;}
     to {top: 700px;}
+   }
+@keyframes bounce {
+  from {transform: translateX(0px);}
+  to {transform: translateX(-15px);}
    }
