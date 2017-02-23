@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
-*{
+body{
 
 background: url(star1.gif);
 text-align: center;
@@ -12,18 +12,9 @@ text-align: center;
 
   font-size: 25px;
   color: white;
-  padding: 200px;
+  padding: 10px;
 }
 
-
-p:hover:after {
-    content: url(paris.gif); /* no need for qoutes */
-    display: block;
-    position: relative;
-    bottom: 0px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 #home{
   position: absolute;
@@ -34,8 +25,43 @@ p:hover:after {
 
 
 #up{
-  display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
 }
+#arrow{
+  animation: bounce 1s infinite alternate;
+  position: absolute;
+  left:1200px;
+  top:300px;
+}
+@keyframes bounce {
+  from {transform: translateX(0px);}
+  to {transform: translateX(-15px);}
+   }
+
+.pic{ width:50%; height:50%;
+  background-size: 100%;
+  background: url("lala.jpg") no-repeat;
+  position: absolute;
+    left: 1300px;
+    top: 76px;
+
+  padding: 10px;
+}
+  .one{
+    display:block;
+    width:540px;
+    height:260px;
+    background:#FFF;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+  }
+  .pic:hover .one {
+    opacity:0.6;
+    text-align:justify; color:#000000;
+    font-size:40px;
+    color: white
+    font-family: 'Indie Flower', cursive;
+    padding:20px; }

@@ -1,12 +1,31 @@
-@import
-url(link href="https://fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i|Questrial|Quicksand:300,400,500,700" rel="stylesheet")
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,600,800');
+
 .h1{
-  font-family: 'Quicksand', sans-serif, bold;
+  font-family: 'Dosis', sans-serif, extra-bold;
 }
 .h2{
-  font-family: 'Quciksand', sans-serif, light;
+  font-family: 'Dosis', sans-serif;
 }
-li{
-  font-family: 'Arsenal', sans-serif, regular;
+body{
+  margin: 80px;
+}
 
+li{
+  font-family: 'Dosis', sans-serif;
+
+}
+.ny{
+  position: absolute;
+left: 600px;
+width: 450px;
+height: 250px;
+top: 380px;
+
+}
+.seoul{
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  left: 600px;
+  top: 80px;
 }
