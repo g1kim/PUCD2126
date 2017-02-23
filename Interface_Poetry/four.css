@@ -63,15 +63,15 @@ div {
 #div5 {
   animation-timing-function: linear;
   animation: my5move 20s infinite;
-  left:400px;
+  left:1500px;
   background-color: thistle;
-  display: inline;
+  display: block;
   font-size: 35px;
 }
 #arrow{
   animation: bounce 1s infinite alternate;
   position: absolute;
-  left:100px;
+  left:1200px;
   top:300px;
 }
 
