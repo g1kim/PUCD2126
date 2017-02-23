@@ -62,7 +62,7 @@ div {
 }
 #div5 {
   animation-timing-function: linear;
-  animation: my5move 20s infinite;
+  animation: my5move 50s infinite;
   left:1500px;
   background-color: thistle;
   display: block;
