@@ -33,7 +33,7 @@ text-align: center;
 #arrow{
   animation: bounce 1s infinite alternate;
   position: absolute;
-  left:1200px;
+  left:1250px;
   top:300px;
 }
 @keyframes bounce {
