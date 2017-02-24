@@ -32,9 +32,8 @@ text-align: center;
 }
 #arrow{
   animation: bounce 1s infinite alternate;
-  position: absolute;
-  left:1250px;
-  top:300px;
+  display: right;
+
 }
 @keyframes bounce {
   from {transform: translateX(0px);}
@@ -45,7 +44,7 @@ text-align: center;
   background-size: 100%;
   background: url("lala.jpg") no-repeat;
   position: absolute;
-    left: 1300px;
+    left: 1400px;
     top: 76px;
 
   padding: 10px;
