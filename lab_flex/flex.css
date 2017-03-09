@@ -1,0 +1,9 @@
+.felx-continer{
+  display: flex;
+    width: 400px;
+    height: 250px;
+}
+
+.flex-item{
+  flex-direction: column;
+}
