@@ -1,0 +1,114 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h1{/* all that movie: */
+  font-weight: 700;
+  font-size: 72px;
+  color: #000000;
+  text-align: center;
+  margin: 50px;
+}
+.popcorn{
+    background-image:url(popcorn.jpg);
+    height:40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px
+}
+.rec1{
+  /* Rectangle: */
+background: #FFFFFF;
+border: 3px solid #040404;
+/* MOVIES: */
+font-weight: 700;
+font-size: 42px;
+color: #000000;
+float: left;
+  width: 500px;
+}
+.rec2{
+  /* Rectangle: */
+background: #FFFFFF;
+border: 3px solid #040404;
+/* TICKETS: */
+font-weight: 700;
+font-size: 42px;
+color: #000000;
+float: right;
+  width: 250px;
+}
+.flex-container1{
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+.flex-container2{
+  display: flex;
+  justify-content: center;
+  float: right;
+}
+.recpink{
+  /* Rectangle 2: */
+background: #D97C7C;
+border: 4px solid #FFFFFF;
+padding: 5px;
+  width: 250px;
+  height: 300px;
+  margin-top: 10px;
+  float: left;
+/* NOW SHOWING: */
+font-weight: 700;
+font-size: 3em;
+color: #FFFFFF;
+}
+.recorange{
+  /* Rectangle 2: */
+background: #F5A623;
+border: 4px solid #FFFFFF;
+float: left;
+padding: 5px;
+  width: 250px;
+  height: 300px;
+    margin-top: 10px;
+
+/* UPCOMING: */
+font-weight: 700;
+font-size: 3em;
+color: #FFFFFF;
+}
+.recred{
+  /* Rectangle 2: */
+background: #D0021B;
+float: right;
+padding: 5px;
+  width: 250px;
+  height: 300px;
+    margin-top: 10px;
+
+/* PURCHASE: */
+font-weight: 700;
+font-size: 3em;
+color: #FFFFFF;
+
+}
+.rec3{
+  /* Rectangle 3: */
+border: 5px solid #13A89D;
+/* LOG IN: */
+font-weight: 700;
+font-size: 55px;
+color: #13A89D;
+background-position: center;
+}

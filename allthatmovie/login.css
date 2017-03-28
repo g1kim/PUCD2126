@@ -1,0 +1,76 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html,body{
+  display:
+    height: 100%;
+    text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h1{/* all that movie: */
+  font-weight: 700;
+  font-size: 72px;
+  color: #000000;
+  text-align: center;
+  margin: 50px;
+}
+input[type=text] {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    /* Rectangle 3 Copy: */
+border: 5px solid #13A89D;
+font-family: 700;
+font-size: 4em;
+color: #C6C2C2;
+
+}
+
+input[type=button] {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* Rectangle 3: */
+background: #13A89D;
+border: 5px solid #FFFFFF;
+width: 50%;
+padding: 10px;
+
+font-family: 700;
+font-size: 4em;
+color: #FFFFFF;
+}
+.line{/* Line: */
+border: 1px solid #979797;
+margin-top: 30px;
+margin-bottom: : 30px;
+}
+p{
+  /* Forgot your Username: */
+font-family: 700;
+font-size: 1em;
+color: #000000;
+margin:20px;
+}
+#img{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+#fb{
+  float:left;
+}
+#gmail{
+  float:right;
+}
