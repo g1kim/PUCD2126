@@ -10,7 +10,6 @@ html,body{
     height: 100%;
   padding-left: 25px;
   padding-right: 25px;
-  text-align: center;
 }
 
 h1{/* all that movie: */
@@ -26,50 +25,74 @@ font-weight: 400;
 font-size: 1em;
 color: #D0021B;
 margin-left: 8.33%;
+text-align: center;
 
 }
 .bar2{
   /* UPCOMING: */
-font-family: 400;
+font-weight:400;
 font-size: 1em;
 color: #000000;
+text-align: center;
 
 
 }
 .bar3{
   /* TICKET: */
-font-family: 400;
+font-weight: 400;
 font-size: 1em;
 color: #000000;
+text-align: center;
 
 }
 .bar4{
-font-family: 400;
+font-weight: 400;
 font-size: 1em;
 color: #13A89D;
 /* Rectangle 3: */
 border: 2px solid #13A89D;
 /* LOG IN: */
 float: right;
+text-align: center;
 }
 .now{
   /* Rectangle 3: */
 background: #D97C7C;
 border: 2px solid #D97C7C;
 /* NOW SHOWING: */
-font-family: 700;
+font-weight: 700;
 font-size: 2em;
 color: #FFFFFF;
+text-align: center;
 }
-.img{
+.img {
+  margin: 100px;
   padding:: 20px;
   background-image:url(BAB.jpeg);
-  height:40%;
-    background-position: center;
-    background-size: cover;
-    
+  height:80%;
+  background-position: center;
+  background-size: cover;
 }
+.info{
+  margin-left: 50%;
+}
+.title{
+  font-weight: 700;
+  font-size: 2em;
+  color: black;
+  text-align: left;
+  margin-bottom: 20px;
 
+}
+ul{
+  /* FAMILY | FANTASY | M: */
+font-weight: 500;
+font-size: 1em;
+color: #000000;
+list-style: none;
+text-align: left;
+}
+.rec
 
 
 /*Global Layout */

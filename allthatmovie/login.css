@@ -70,6 +70,7 @@ margin:20px;
 }
 #fb{
   float:left;
+  width: 200px;
 }
 #gmail{
   float:right;

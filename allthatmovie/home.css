@@ -9,11 +9,11 @@
 html,body{
     height: 100%;
     text-align: center;
-  padding-left: 25px;
-  padding-right: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-h1{/* all that movie: */
+.title{/* all that movie: */
   font-weight: 700;
   font-size: 72px;
   color: #000000;
@@ -27,16 +27,66 @@ h1{/* all that movie: */
     background-repeat: no-repeat;
     margin: 50px
 }
+.movie-container{
+  width: 66.6%;
+  float:left;
+}
+
 .rec1{
   /* Rectangle: */
-background: #FFFFFF;
-border: 3px solid #040404;
-/* MOVIES: */
-font-weight: 700;
-font-size: 42px;
-color: #000000;
-float: left;
-  width: 500px;
+  background: #FFFFFF;
+  border: 3px solid #040404;
+  /* MOVIES: */
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+  height: 50px;
+  width:100%;
+}
+
+.recpink{
+  /* Rectangle 2: */
+  background: #D97C7C;
+  border: 3px solid #FFFFFF;
+  padding: 5px;
+  height: 300px;
+  margin-top: 10px;
+/* NOW SHOWING: */
+  font-weight: 700;
+  font-size: 2.5em;
+  color: #FFFFFF;
+  width: 50%;
+  float: left;
+}
+.recpink:hover{
+    background-color: white;
+    color: black;
+    border: 10px solid #D97C7C;
+}
+.recorange{
+  /* Rectangle 2: */
+  background: #F5A623;
+  border: 4px solid #FFFFFF;
+  padding: 5px;
+
+  height: 300px;
+  margin-top: 10px;
+/* UPCOMING: */
+  font-weight: 700;
+  font-size: 2.5em;
+  color: #FFFFFF;
+  width: 50%;
+  float: left;
+}
+.recorange:hover{
+    background-color: white;
+    color: black;
+    border: 10px solid #F5A623;
+}
+
+.ticket-container{
+  width: 30%;
+  float: right;
 }
 .rec2{
   /* Rectangle: */
@@ -47,61 +97,27 @@ font-weight: 700;
 font-size: 42px;
 color: #000000;
 float: right;
-  width: 250px;
+height:50px;
+width: 100%;
 }
-.flex-container1{
-  display: flex;
-  justify-content: center;
-  float: left;
-}
-.flex-container2{
-  display: flex;
-  justify-content: center;
-  float: right;
-}
-.recpink{
-  /* Rectangle 2: */
-background: #D97C7C;
-border: 4px solid #FFFFFF;
-padding: 5px;
-  width: 250px;
-  height: 300px;
-  margin-top: 10px;
-  float: left;
-/* NOW SHOWING: */
-font-weight: 700;
-font-size: 3em;
-color: #FFFFFF;
-}
-.recorange{
-  /* Rectangle 2: */
-background: #F5A623;
-border: 4px solid #FFFFFF;
-float: left;
-padding: 5px;
-  width: 250px;
-  height: 300px;
-    margin-top: 10px;
 
-/* UPCOMING: */
-font-weight: 700;
-font-size: 3em;
-color: #FFFFFF;
-}
 .recred{
   /* Rectangle 2: */
-background: #D0021B;
-float: right;
-padding: 5px;
-  width: 250px;
+  background: #D0021B;
+  float: right;
+  padding: 5px;
   height: 300px;
-    margin-top: 10px;
-
+  margin-top: 10px;
 /* PURCHASE: */
-font-weight: 700;
-font-size: 3em;
-color: #FFFFFF;
-
+  font-weight: 700;
+  font-size: 2.5em;
+  color: #FFFFFF;
+  width: 100%;
+}
+.recred:hover{
+    background-color: white;
+    color: black;
+    border: 10px solid #D0021B;
 }
 .rec3{
   /* Rectangle 3: */
@@ -111,4 +127,22 @@ font-weight: 700;
 font-size: 55px;
 color: #13A89D;
 background-position: center;
+}
+
+.login{
+  /* Rectangle 3: */
+border: 5px solid #13A89D;
+/* LOG IN: */
+font-weight: 700;
+font-size: 2.5em;
+color: #13A89D;
+margin: auto;
+padding: 5px;
+height: 20px;
+width: 60%;
+}
+.login:hover{
+  background-color: #13A89D;
+  color: white;
+
 }
