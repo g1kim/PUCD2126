@@ -31,25 +31,28 @@ input[type=text] {
     /* Rectangle 3 Copy: */
 border: 5px solid #13A89D;
 font-family: 700;
-font-size: 4em;
+font-size: 3em;
 color: #C6C2C2;
 
 }
 
-input[type=button] {
+.login {
     width: 120px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     /* Rectangle 3: */
-background: #13A89D;
-border: 5px solid #FFFFFF;
-width: 50%;
-padding: 10px;
-
-font-family: 700;
-font-size: 4em;
-color: #FFFFFF;
+    background: #13A89D;
+    border: 5px solid #FFFFFF;
+    width: 50%;
+    padding: 10px;
+    font-weight:700;
+    font-size: 3em;
+    color: #FFFFFF;
+}
+.login:hover{
+  background-color:  #13A89D;
+  color: white;
 }
 .line{/* Line: */
 border: 1px solid #979797;
@@ -63,15 +66,11 @@ font-size: 1em;
 color: #000000;
 margin:20px;
 }
-#img{
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
+
+.sns{
+  width: 60%;
+  margin: auto;
 }
-#fb{
-  float:left;
-  width: 200px;
-}
-#gmail{
-  float:right;
+.fb{
+  padding-bottom: 20px;
 }
