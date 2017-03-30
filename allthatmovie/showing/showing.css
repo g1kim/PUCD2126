@@ -1,23 +1,118 @@
 *{
-    border: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
-}
+      border: 0;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Quicksand', sans-serif;
+  }
 
-html,body{
-  display:
-    height: 100%;
+  html,body{
+      height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  h1{/* all that movie: */
+    font-weight: 700;
+    font-size: 72px;
+    color: #000000;
     text-align: center;
-  padding-left: 25px;
-  padding-right: 25px;
-}
+    margin: 50px;
+  }
 
-h1{/* all that movie: */
-  font-weight: 700;
-  font-size: 72px;
+  .barbox{
+    overflow:hidden;
+    display: block;
+    margin-bottom:20px;
+  }
+  .bar1{
+    /* NOW SHOWING: */
+  font-weight: 400;
+  font-size: 1em;
+  color: #D0021B;
+  margin-left: 10%;
+  text-align: center;
+  float: left;
+
+  }
+  .bar2{
+    /* UPCOMING: */
+  font-weight:400;
+  font-size: 1em;
   color: #000000;
   text-align: center;
-  margin: 50px;
+  float: left;
+  margin-left: 9%;
+
+  }
+  .bar3{
+    /* TICKET: */
+  font-weight: 400;
+  font-size: 1em;
+  color: #000000;
+  text-align: center;
+  float: left;
+  margin-left: 9%;
+
+  }
+  .bar4{
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #13A89D;
+  /* Rectangle 3: */
+  border: 2px solid #13A89D;
+  /* LOG IN: */
+  float: right;
+  text-align: center;
+  margin-right: 9%;
+  }
+
+  .now{
+    /* Rectangle 3: */
+  background: #D97C7C;
+  border: 2px solid #D97C7C;
+  /* NOW SHOWING: */
+  font-weight: 700;
+  font-size: 2em;
+  color: #FFFFFF;
+  text-align: center;
+  }
+  .desktopbabbox{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background-color: #F2E09C;
+    width: 100%;
+    height: 50%;
+  }
+  .babimg{
+    float: left;
+    height: 100%;
+    width: 30%
+  }
+  .desktoploganbox{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background-color: #906E5E;
+    width: 100%;
+    height: 50%;
+  }
+  .loganimg{
+    float: left;
+    height: 100%;
+    width: 30%
+  }
+  .desktopkongbox{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background-color: #FD9240;
+    width: 100%;
+    height: 50%;
+  }
+  .kongimg{
+    float: left;
+    height: 100%;
+    width: 30%
+  }
+li{
+  list-style: none;
 }
