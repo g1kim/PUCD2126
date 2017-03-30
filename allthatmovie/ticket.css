@@ -1,0 +1,130 @@
+*{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Quicksand', sans-serif;
+  }
+
+  html,body{
+      height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  h1{/* all that movie: */
+    font-weight: 700;
+    font-size: 72px;
+    color: #000000;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .barbox{
+    overflow:hidden;
+    display: block;
+    margin-bottom:20px;
+  }
+  .bar1{
+    /* NOW SHOWING: */
+  font-weight: 400;
+  font-size: 1em;
+  color: #D0021B;
+  margin-left: 10%;
+  text-align: center;
+  float: left;
+
+  }
+  .bar2{
+    /* UPCOMING: */
+  font-weight:400;
+  font-size: 1em;
+  color: #000000;
+  text-align: center;
+  float: left;
+  margin-left: 9%;
+
+  }
+  .bar3{
+    /* TICKET: */
+  font-weight: 400;
+  font-size: 1em;
+  color: #000000;
+  text-align: center;
+  float: left;
+  margin-left: 9%;
+
+  }
+  .bar4{
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #13A89D;
+  /* Rectangle 3: */
+  border: 2px solid #13A89D;
+  /* LOG IN: */
+  float: right;
+  text-align: center;
+  margin-right: 9%;
+  }
+
+  .ticket{
+    /* Rectangle 3: */
+  background: #D0021B;
+  border: 2px solid #D0021B;
+  /* NOW SHOWING: */
+  font-weight: 700;
+  font-size: 2em;
+  color: #FFFFFF;
+  text-align: center;
+  }
+  p{
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  .categories{
+    color:#e91e63;
+  }
+  .theather{
+    font-size: 1.5em;
+  }
+  .time{
+    background: #838383;
+    border: 10px solid #838383;
+    /* TICKET Copy: */
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    padding: 5px;
+    height: 65px;
+
+    float: left;
+    margin-left: 10%;
+  }
+  .time:hover{
+      border: 10px solid #D0021B;
+      background-color: white;
+      color: black;
+    }
+    .day{
+      background-color: #838383;
+      border: 10px solid #838383;
+      /* TICKET Copy: */
+      font-weight: 700;
+      font-size: 1.5em;
+      color: #FFFFFF;
+      padding: 5px;
+      height: 65px;
+
+      float: left;
+      margin-left: 2%;
+    }
+    .daytable{
+      margin-bottom:5%;
+    }
+    클릭하고 색깔남기 어떻게함???.day:{
+        border: 10px solid black;
+        background-color: #D0021B;
+        color: white;
+      }
