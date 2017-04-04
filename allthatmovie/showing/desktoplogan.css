@@ -25,9 +25,18 @@
     display: block;
     margin-bottom:20px;
   }
+  .bar0{
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #D0021B;
+  margin-left: 10%;
+  text-align: center;
+  float: left;
+  display:none
+  }
   .bar1{
     /* NOW SHOWING: */
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1em;
   color: #D0021B;
   margin-left: 10%;
@@ -66,6 +75,28 @@
   text-align: center;
   margin-right: 9%;
   }
+  @media (max-width: 730px) {
+  .barbox{
+      border: 5px solid black;
+    }
+  .bar0{
+  display: inline;
+    }
+  .bar1{
+    display: none;
+  }
+  .bar2{
+    display: none;
+  }
+  .bar3{
+  font-size: 1.5em;
+  }
+  .bar4{
+  border: none;
+  font-size: 1.5em;
+  }
+  }
+
 
   .now{
     /* Rectangle 3: */
@@ -136,23 +167,12 @@ ul{
     background-color: white;
     color: black;
   }
-.storyline{
-  /* Rectangle 2 Copy 3: */
-background: #73BF20;
-/* STORY LINE: */
-font-weight: 700;
-font-size: 2.5em;
-color: #FFFFFF;
-padding: 5px;
-height: 100px;
-width: 300px;
-line-height: 100px;
-margin-bottom: 2%;
-text-align: center;
-}
+
 p{
   line-height: 1.5;
-  margin-bottom: 2%
+  margin-bottom: 2%;
+  margin-top:2%;
+  margin-left: 2%
 }
 
 .viewmore{
@@ -161,19 +181,4 @@ p{
 }
 .subtitle{
   font-size: 2em
-}
-.review{
-  /* Rectangle 2 Copy 3: */
-background: #4A90E2;
-/* STORY LINE: */
-font-weight: 700;
-font-size: 2.5em;
-color: #FFFFFF;
-padding: 5px;
-height: 100px;
-width: 300px;
-line-height: 100px;
-margin-bottom: 2%;
-text-align: center;
-
 }

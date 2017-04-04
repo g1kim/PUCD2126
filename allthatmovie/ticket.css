@@ -4,15 +4,15 @@
       padding: 0;
       box-sizing: border-box;
       font-family: 'Quicksand', sans-serif;
-  }
+}
 
-  html,body{
+html,body{
       height: 100%;
     padding-left: 25px;
     padding-right: 25px;
-  }
+}
 
-  h1{/* all that movie: */
+h1{/* all that movie: */
     font-weight: 700;
     font-size: 72px;
     color: #000000;
@@ -20,22 +20,31 @@
     margin: 50px;
   }
 
-  .barbox{
+.barbox{
     overflow:hidden;
     display: block;
     margin-bottom:20px;
-  }
-  .bar1{
+}
+.bar0{
+  /* NOW SHOWING: */
+font-weight: 400;
+font-size: 1.5em;
+color: #000000;
+margin-left: 10%;
+text-align: center;
+float: left;
+display:none
+}
+.bar1{
     /* NOW SHOWING: */
   font-weight: 400;
   font-size: 1em;
-  color: #D0021B;
+  color: #000000;
   margin-left: 10%;
   text-align: center;
   float: left;
-
   }
-  .bar2{
+.bar2{
     /* UPCOMING: */
   font-weight:400;
   font-size: 1em;
@@ -43,19 +52,17 @@
   text-align: center;
   float: left;
   margin-left: 9%;
-
-  }
-  .bar3{
+}
+.bar3{
     /* TICKET: */
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1em;
-  color: #000000;
+  color: #D0021B;
   text-align: center;
   float: left;
   margin-left: 9%;
-
-  }
-  .bar4{
+}
+.bar4{
   font-weight: 700;
   font-size: 1.5em;
   color: #13A89D;
@@ -65,9 +72,31 @@
   float: right;
   text-align: center;
   margin-right: 9%;
-  }
+}
 
-  .ticket{
+@media (max-width: 730px) {
+.barbox{
+    border: 5px solid black;
+  }
+.bar0{
+  display: inline;
+  }
+.bar1{
+  display: none;
+}
+.bar2{
+  display: none;
+}
+.bar3{
+font-size: 1.5em;
+}
+.bar4{
+border: none;
+font-size: 1.5em;
+}
+}
+
+.ticket{
     /* Rectangle 3: */
   background: #D0021B;
   border: 2px solid #D0021B;
@@ -76,20 +105,23 @@
   font-size: 2em;
   color: #FFFFFF;
   text-align: center;
-  }
-  p{
+}
+p{
     font-weight: 700;
     font-size: 2em;
     margin-top: 3%;
     margin-bottom: 2%;
-  }
-  .categories{
+}
+.categories{
     color:#e91e63;
-  }
+    clear: both;
+
+}
   .theather{
     font-size: 1.5em;
-  }
-  .time{
+    clear: both;
+}
+.time{
     background: #838383;
     border: 10px solid #838383;
     /* TICKET Copy: */
@@ -98,16 +130,17 @@
     color: #FFFFFF;
     padding: 5px;
     height: 65px;
+    margin-bottom: 5%;
 
     float: left;
     margin-left: 10%;
-  }
-  .time:hover{
+}
+.time:hover{
       border: 10px solid #D0021B;
       background-color: white;
       color: black;
     }
-    .day{
+.day{
       background-color: #838383;
       border: 10px solid #838383;
       /* TICKET Copy: */
@@ -116,15 +149,25 @@
       color: #FFFFFF;
       padding: 5px;
       height: 65px;
+      margin-bottom: 5%;
 
       float: left;
       margin-left: 2%;
     }
+.day43{
+  background-color: red;
+  border: 10px solid red;
+  /* TICKET Copy: */
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  padding: 5px;
+  height: 65px;
+  margin-bottom: 5%;
+  float: left;
+  margin-left: 2%;
+
+  }
     .daytable{
       margin-bottom:5%;
     }
-    클릭하고 색깔남기 어떻게함???.day:{
-        border: 10px solid black;
-        background-color: #D0021B;
-        color: white;
-      }
