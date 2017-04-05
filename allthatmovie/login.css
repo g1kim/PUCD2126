@@ -25,7 +25,7 @@ h1{/* all that movie: */
 h1:hover{
   color: #13A89D;
 }
-input[type=text] {
+.id{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -47,7 +47,7 @@ color: #C6C2C2;
     display: block;
     /* Rectangle 3: */
     background: #13A89D;
-    border: 5px solid #FFFFFF;
+    border: 5px solid #13A89D;
     width: 50%;
     padding: 10px;
     font-weight:700;
@@ -75,6 +75,23 @@ margin:20px;
   width: 60%;
   margin: auto;
 }
-.fb{
+.phonesns{
+  display: none
+}
+.desktopsns{
   padding-bottom: 20px;
+}
+@media (max-width: 685px) {
+  .desktopsns{
+    display: none;
+  }
+  .phonesns{
+display: inline;
+  }
+  .id{
+    font-size: 1em;
+  }
+  .login{
+    font-size: 1.em;
+  }
 }
