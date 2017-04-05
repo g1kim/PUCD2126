@@ -81,31 +81,7 @@ display:none
 }
 
 
-@media (max-width: 730px) {
-.barbox{
-    border: 5px solid black;
-  }
-.bar0{
-  display: inline;
-  }
-.bar1{
-  display: none;
-}
-.bar2{
-  display: none;
-}
-.bar3{
-font-size: 1.2em;
-}
-.bar4{
-border: none;
-font-size: 1.2em;
-}
-}
-a:hover{
-  color:purple;
-  font-weight: 700;
-}
+
 
 .ticket{
     /* Rectangle 3: */
@@ -202,3 +178,48 @@ p{
       color: white;
 
     }
+    a:hover{
+      color:purple;
+      font-weight: 700;
+    }
+    @media (max-width: 730px) {
+    .barbox{
+        border: 5px solid black;
+      }
+    .bar0{
+      display: inline;
+      }
+    .bar1{
+      display: none;
+    }
+    .bar2{
+      display: none;
+    }
+    .bar3{
+    font-size: 1.2em;
+    }
+    .bar4{
+    border: none;
+    font-size: 1.2em;
+    }
+    .day{
+      font-size: 1.0em;
+      height:50px;
+    }
+    .day43{
+      font-size: 1.0em;
+      height:50px;
+    }
+    .time{
+      font-size: 1.0em;
+      height:50px;
+    }
+    .theather {
+    font-size: 1.2em;
+    margin-bottom: 9%;
+    margin-top: 4%;
+    }
+    .next{
+      font-size: 1.5em;
+    }
+  }
