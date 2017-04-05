@@ -22,7 +22,7 @@ html,body{
   margin: 50px;
 }
 .title:hover{
-  color:purple;
+  color: #13A89D;
 }
 .popcorn{
     background-image:url(popcorn.jpg);
