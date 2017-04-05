@@ -4,6 +4,7 @@
       padding: 0;
       box-sizing: border-box;
       font-family: 'Quicksand', sans-serif;
+      text-decoration: none;
 }
 
 html,body{
@@ -19,11 +20,18 @@ h1{/* all that movie: */
     text-align: center;
     margin: 50px;
   }
+h1:hover{
+  color:purple;
+}
+
 
 .barbox{
     overflow:hidden;
     display: block;
     margin-bottom:20px;
+}
+.barbox:hover{
+  color:purple;
 }
 .bar0{
   /* NOW SHOWING: */
