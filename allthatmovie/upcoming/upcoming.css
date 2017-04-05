@@ -19,6 +19,11 @@
     text-align: center;
     margin: 50px;
   }
+  h1:hover{
+    color: purple;
+    font-weight: 700;
+  }
+  
 
   .barbox{
     overflow:hidden;
@@ -204,4 +209,8 @@ li{
   }
 a{
   color: white;
+}
+a:hover{
+  color: purple;
+  font-weight: 700;
 }
