@@ -4,6 +4,7 @@
       padding: 0;
       box-sizing: border-box;
       font-family: 'Quicksand', sans-serif;
+      text-decoration: none;
   }
 
   html,body{
@@ -19,6 +20,10 @@
     text-align: center;
     margin: 50px;
   }
+  h1:hover{
+    color:#13A89D;
+
+  }
 
   .barbox{
     overflow:hidden;
@@ -27,7 +32,7 @@
   }
   .bar0{
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #D0021B;
   margin-left: 10%;
   text-align: center;
@@ -75,27 +80,6 @@
   text-align: center;
   margin-right: 9%;
   }
-  @media (max-width: 730px) {
-  .barbox{
-      border: 5px solid black;
-    }
-  .bar0{
-  display: inline;
-    }
-  .bar1{
-    display: none;
-  }
-  .bar2{
-    display: none;
-  }
-  .bar3{
-  font-size: 1.5em;
-  }
-  .bar4{
-  border: none;
-  font-size: 1.5em;
-  }
-  }
 
 
   .now{
@@ -121,7 +105,7 @@
 
   .movietitle{
     font-weight: 700;
-    font-size: 55px;
+    font-size: 3.5vw;
     color: black;
     text-align: left;
     margin-bottom: 20px;
@@ -208,4 +192,47 @@ line-height: 100px;
 margin-bottom: 2%;
 text-align: center;
 
+}
+.youtube-video {
+  width: 100%;
+  height: 720px;
+}
+@media (max-width: 730px) {
+.barbox{
+    border: 5px solid black;
+  }
+.bar0{
+display: inline;
+  }
+.bar1{
+  display: none;
+}
+.bar2{
+  display: none;
+}
+.bar3{
+font-size: 1.2em;
+}
+.bar4{
+border: none;
+font-size: 1.2em;
+}
+
+.youtube-video{
+  height:360px;
+  width: 100%;
+}
+}
+@media (max-width: 1073px) {
+  .img{
+    width: 100%;
+    margin: 0%;
+  }
+  .movietitle{
+    font-size: 55px;
+  }
+}
+a:hover{
+  color:purple;
+  font-weight: 700;
 }

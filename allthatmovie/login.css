@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
 }
 
 html,body{
@@ -20,6 +21,9 @@ h1{/* all that movie: */
   color: #000000;
   text-align: center;
   margin: 50px;
+}
+h1:hover{
+  color: #13A89D;
 }
 input[type=text] {
   width: 50%;

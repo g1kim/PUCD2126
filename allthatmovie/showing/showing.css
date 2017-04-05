@@ -21,7 +21,7 @@
     margin: 50px;
   }
   h1:hover{
-    color: purple;
+    color: #13A89D;
   }
 
   .barbox{
@@ -79,27 +79,7 @@
   text-align: center;
   margin-right: 9%;
   }
-  @media (max-width: 730px) {
-  .barbox{
-      border: 5px solid black;
-    }
-  .bar0{
-  display: inline;
-    }
-  .bar1{
-    display: none;
-  }
-  .bar2{
-    display: none;
-  }
-  .bar3{
-  font-size: 1.5em;
-  }
-  .bar4{
-  border: none;
-  font-size: 1.5em;
-  }
-  }
+
 
   .now{
     /* Rectangle 3: */
@@ -113,8 +93,8 @@
   }
   .info-box{
     line-height: 2.2;
-    float:right;
-    margin-right: 10%;
+    float:left;
+    margin-left: 5%;
     padding: 8% 6%;
     font-size: 1.5vw;
   }
@@ -156,30 +136,6 @@
     height: 100%;
     width: 37%;
   }
-  @media (max-width: 855px) {
-    .babimg{
-    margin-left: 5%;
-      width: 90%;
-    }
-    .loganimg{
-        margin-left: 5%;
-      height: 100%;
-      width: 90%;
-    }
-    .kongimg{
-        margin-left: 5%;
-      height: 100%;
-      width: 90%;
-    }
-    .info-box{
-      margin-left: 5%;
-      line-height: 2.2;
-      float:right;
-      font-size: 3vw;
-      line-height: 2.0;
-
-    }
-  }
 
 li{
   list-style: none;
@@ -206,4 +162,53 @@ li{
   a:hover{
     color: purple;
     font-weight: 700;
+  }
+  @media (max-width: 855px) {
+    .babimg{
+    margin-left: 5%;
+      width: 90%;
+    }
+    .loganimg{
+        margin-left: 5%;
+      height: 100%;
+      width: 90%;
+    }
+    .kongimg{
+        margin-left: 5%;
+      height: 100%;
+      width: 90%;
+    }
+    .info-box{
+      margin-left: 5%;
+      line-height: 2.2;
+
+      font-size: 3vw;
+      line-height: 2.0;
+
+    }
+    .info-box{
+      float:left;
+    }
+  }
+
+  @media (max-width: 730px) {
+  .barbox{
+      border: 5px solid black;
+    }
+  .bar0{
+  display: inline;
+    }
+  .bar1{
+    display: none;
+  }
+  .bar2{
+    display: none;
+  }
+  .bar3{
+  font-size: 1.5em;
+  }
+  .bar4{
+  border: none;
+  font-size: 1.5em;
+  }
   }

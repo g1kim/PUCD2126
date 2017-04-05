@@ -21,7 +21,7 @@ h1{/* all that movie: */
     margin: 50px;
   }
 h1:hover{
-  color:purple;
+  color:#13A89D;
 }
 
 
@@ -30,9 +30,7 @@ h1:hover{
     display: block;
     margin-bottom:20px;
 }
-.barbox:hover{
-  color:purple;
-}
+
 .bar0{
   /* NOW SHOWING: */
 font-weight: 400;
@@ -82,6 +80,7 @@ display:none
   margin-right: 9%;
 }
 
+
 @media (max-width: 730px) {
 .barbox{
     border: 5px solid black;
@@ -102,6 +101,10 @@ font-size: 1.5em;
 border: none;
 font-size: 1.5em;
 }
+}
+a:hover{
+  color:purple;
+  font-weight: 700;
 }
 
 .ticket{
@@ -178,4 +181,24 @@ p{
   }
     .daytable{
       margin-bottom:5%;
+    }
+    .next{
+      /* Rectangle 3: */
+    border: 5px solid #D0021B;
+    /* LOG IN: */
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #D0021B;
+    margin: 32%;
+    padding: 5px;
+    width: 40%;
+    display: inline-block;
+    margin-top: 3%;
+    clear: both;
+    text-align: center;
+    }
+    .next:hover{
+      background-color: #D0021B;
+      color: white;
+
     }

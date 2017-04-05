@@ -20,10 +20,10 @@
     margin: 50px;
   }
   h1:hover{
-    color: purple;
+    color: #13A89D;
     font-weight: 700;
   }
-  
+
 
   .barbox{
     overflow:hidden;
@@ -32,7 +32,7 @@
   }
   .bar0{
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #D0021B;
   margin-left: 10%;
   text-align: center;
@@ -80,27 +80,7 @@
   text-align: center;
   margin-right: 9%;
   }
-  @media (max-width: 730px) {
-  .barbox{
-      border: 5px solid black;
-    }
-  .bar0{
-  display: inline;
-    }
-  .bar1{
-    display: none;
-  }
-  .bar2{
-    display: none;
-  }
-  .bar3{
-  font-size: 1.5em;
-  }
-  .bar4{
-  border: none;
-  font-size: 1.5em;
-  }
-  }
+
 
 
     .up{
@@ -115,8 +95,8 @@
     }
   .info-box{
     line-height: 2.2;
-    float:right;
-    margin-right: 2%;
+    float:left;
+    margin-left: 5%;
     padding: 4% 6%;
     font-size: 1.5vw;
     color: #FFFFFF;
@@ -162,31 +142,6 @@
     height: 100%;
     width: 37%;
   }
-  @media (max-width: 855px) {
-    .furiousimg{
-    height: 100%;
-    margin-left: 5%;
-      width: 90%;
-    }
-    .gisimg{
-        margin-left: 5%;
-      height: 100%;
-      width: 90%;
-    }
-    .piratesimg{
-        margin-left: 5%;
-      height: 100%;
-      width: 90%;
-    }
-    .info-box{
-      margin-left: 5%;
-      line-height: 2.2;
-      float:right;
-      font-size: 3vw;
-      line-height: 2.0;
-
-    }
-  }
 
 li{
   list-style: none;
@@ -213,4 +168,51 @@ a{
 a:hover{
   color: purple;
   font-weight: 700;
+}
+@media (max-width: 855px) {
+  .furiousimg{
+  height: 100%;
+  margin-left: 5%;
+    width: 90%;
+  }
+  .gisimg{
+      margin-left: 5%;
+    height: 100%;
+    width: 90%;
+  }
+  .piratesimg{
+      margin-left: 5%;
+    height: 100%;
+    width: 90%;
+  }
+  .info-box{
+    margin-left: 5%;
+    line-height: 2.2;
+
+    font-size: 3vw;
+    line-height: 2.0;
+
+  }
+}
+
+@media (max-width: 730px) {
+.barbox{
+    border: 5px solid black;
+  }
+.bar0{
+display: inline;
+  }
+.bar1{
+  display: none;
+}
+.bar2{
+  display: none;
+}
+.bar3{
+font-size: 1.2em;
+}
+.bar4{
+border: none;
+font-size: 1.2em;
+}
 }
