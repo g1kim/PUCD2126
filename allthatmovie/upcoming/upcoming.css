@@ -1,4 +1,4 @@
-*{
+*{  text-decoration: none;
       border: 0;
       margin: 0;
       padding: 0;
@@ -97,72 +97,78 @@
   }
   }
 
-  .now{
-    /* Rectangle 3: */
-  background: #D97C7C;
-  border: 2px solid #D97C7C;
-  /* NOW SHOWING: */
-  font-weight: 700;
-  font-size: 2em;
-  color: #FFFFFF;
-  text-align: center;
-  }
+
+    .up{
+      /* Rectangle 3: */
+    background: #F5A623;
+
+    /* NOW SHOWING: */
+    font-weight: 700;
+    font-size: 2em;
+    color: #FFFFFF;
+    text-align: center;
+    }
   .info-box{
     line-height: 2.2;
     float:right;
-    margin-right: 10%;
-    padding: 8% 6%;
+    margin-right: 2%;
+    padding: 4% 6%;
     font-size: 1.5vw;
+    color: #FFFFFF;
 
   }
-  .desktopbabbox{
+  .pirate-info{
+    margin: 6%;
+  }
+  .desktopfuriousbox{
     margin-top: 8%;
     margin-bottom: 8%;
-    background-color: #F2E09C;
+    background-color: #444B67;
     width: 100%;
     display: inline-block;
   }
-  .babimg{
+  .furiousimg{
     float: left;
     height: 100%;
     width: 37%;
   }
-  .desktoploganbox{
+  .desktopgisbox{
     margin-top: 8%;
     margin-bottom: 8%;
-    background-color: #906E5E;
+    background-color: #7ECDEE;
     width: 100%;
     display: inline-block;
   }
-  .loganimg{
+  .gisimg{
     float: left;
     height: 100%;
     width: 37%;
   }
-  .desktopkongbox{
+  .desktoppiratesbox{
     margin-top: 8%;
     margin-bottom: 8%;
-    background-color: #FD9240;
+    background-color: #549DAB;
     width: 100%;
     display: inline-block;
 
   }
-  .kimg{
+  .piratesimg{
     float: left;
     height: 100%;
     width: 37%;
   }
   @media (max-width: 855px) {
-    .babimg{
+    .furiousimg{
+    height: 100%;
     margin-left: 5%;
       width: 90%;
     }
-    .loganimg{
+    .gisimg{
         margin-left: 5%;
       height: 100%;
       width: 90%;
     }
-    .kongimg{
+    .piratesimg{
         margin-left: 5%;
       height: 100%;
       width: 90%;
@@ -196,6 +202,6 @@ li{
     background-color: white;
     color: black;
   }
-  a{
-    color: black;
-  }
+a{
+  color: white;
+}
