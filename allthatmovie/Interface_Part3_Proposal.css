@@ -1,0 +1,44 @@
+*{
+      border: 0;
+      margin: 20px;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Quicksand', sans-serif;
+      text-align:center;
+      list-style: none;
+}
+
+h1:hover{
+  color: #13A89D;
+}
+h2{
+  font-weight: 700;
+  font-size: 72px;
+  color: #13A89D;
+  text-align: center;
+  margin: 50px;
+}
+h2:hover{
+  color:#febbbb ;
+}
+.popcorn{
+    background-image:url(popcorn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px;
+    padding: 140px;
+}
+h3{
+  margin-top: 50px;
+}
+h3:hover{
+  color:#13A89D;
+}
+img{
+  width:40%;
+
+}
+iframe{
+  width:80%;
+   height:1200px;
+}
