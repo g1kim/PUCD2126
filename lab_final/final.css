@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: black;
+}
+
+.nav {
+  display: flex;
+  flex-direction:row;
+  background-color: #3c3c3c;
+  color: #fff;
+  list-style-type: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav a:hover{
+  color: black;
+
+}
+.nav li {
+  width: 25%;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.full-bleed {
+  background: url('landscape.jpg');
+  background-size: contain;
+  color: green;
+  text-align: center;
+  height: 100vh;
+  background-position: bottom center;
+  background-size: 100%;
+}
+section h1{
+  text-align: center;
+  font-size: 50px;
+}
+article img{
+  float:left;
+  margin: 10px;
+}
+
+.title{
+  text-align: center;
+  margin: 10px;
+}
+.img {
+  text-align: center;
+}
+
+.img img{
+  width: 20%;
+  vertical-align: top;
+}
+
+.search{
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.text{
+
+}
+/* for-phone-only */
+@media (max-width: 599px) {
+  .nav a{
+    font-size: 20px;
+    }
+
+  .full-bleed{
+    height: 50vh;
+    }
+    .img img{
+      width: 40%
+    }
+    article img {
+    width:100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    .text p{
+      margin: 30px;
+    }
+    .img{
+      padding: 0px 10px;
+    }
+  }
+/* for-tablet-portrait-up */
+@media (min-width: 600px) {
+  .nav a {
+    font-size: 24px;
+  }
+
+  .full-bleed{
+    height:70vh;
+  }
+
+ }
+/* for-tablet-landscape-up */
+@media (min-width: 900px) {
+
+    .full-bleed{
+      height:100vh;
+      }
+    .text{
+
+    margin:20px;
+    }
+    }
