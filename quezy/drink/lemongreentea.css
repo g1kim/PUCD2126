@@ -1,0 +1,85 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+
+
+}
+.header{
+  ;
+  margin: 5%;}
+
+.arrow{
+  width: 10%;
+  float:left;
+}
+#heart{
+    width: 10%;
+    float: right;
+}
+
+.name{
+  font-weight: 700;
+    font-size: 7vw;
+    padding-left: 10%;
+    padding-right: 6%;
+    float:left;
+}
+.info{
+
+}
+.mainimg{
+  width:100%;
+  padding-top: 5%;
+}
+.infotitle{
+  font-weight: 700;
+  font-size: 8vw;
+  text-align: left;
+  padding: 5%;
+
+}
+.smalltitle{
+  font-weight: 700;
+  margin: 3%;
+  padding-left: 3%;
+  color: #F68427;
+  font-size: 5vw;
+  padding-top: 3%;
+  padding-bottom:3%;
+}
+.recipeinfo{
+  width: 100%;
+}
+p{
+  margin: 3%;
+  padding-left: 3%;
+  font-size: 4.5vw;
+}
+ol li {
+  font-weight: : 700;
+  position: relative;
+  width:30%
+  color: pink;
+}
+span {
+  position: absolute;
+    line-height: 25px;
+    font-size: 20vw;
+    width: 40%;
+    float: left;
+    color: #D34965;
+    margin-left: 2%;
+    margin-top: 3%;
+
+}
+.recipe img{
+  width:100%;
+  margin-top: 5%;
+  margin-bottom:5%;
+}
+.recipe p{
+  width: 62%;
+      float: right;}
