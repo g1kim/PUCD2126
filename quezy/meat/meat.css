@@ -1,0 +1,48 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+.header{
+  margin: 5%;
+  padding-bottom: 3%;
+}
+
+.arrow{
+  width: 10%;
+  float:left;
+}
+.meats{
+  width: 100%;
+  height: 30%;
+
+
+}
+.name{
+  color:#F15933;
+  font-weight: 700;
+    font-size: 7vw;
+    padding-left: 6%;
+    padding-right: 10%;
+    text-align: center;
+
+}
+p{
+  font-weight: 700;
+  font-size:6vw;
+  color:black;
+  margin: 3%;
+
+}
+.foodname{
+  float:left;
+}
+.time{
+    float: right;
+    margin: 2%;
+    margin-right: 5%;
+}
