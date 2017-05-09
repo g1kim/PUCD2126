@@ -36,8 +36,8 @@ body{
   margin: 26%;
   color:white;
 }
-.button: hover{
-  background: red;
+.button:hover{
+  background: #ffc107;
 }
 p{
   color: white;
