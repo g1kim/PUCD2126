@@ -9,7 +9,7 @@
 }
 body{
   background: linear-gradient(to bottom, rgba(245,129,40,1) 0%, rgba(231,56,39,1) 100%);
-  background-repeat: no-repeat;
+
 
 
 }
@@ -20,6 +20,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   display: block;
+  margin-top: 65%
 
 
 }
@@ -30,11 +31,15 @@ body{
   border-radius: 8px;
   font-weight: 500;
   color: white;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  margin: 25%;
+  padding-bottom: 7%;
+  padding-top: 7%;
+  margin: 26%;
   color:white;
 }
 .button: hover{
   background: red;
+}
+p{
+  color: white;
+  font-size: 3vh;
 }
