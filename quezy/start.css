@@ -31,8 +31,9 @@ html,body{
   font-weight: 500;
   color: white;
   padding-bottom: 5%;
-    padding-top: 5%;
-    margin: 25%;
+  padding-top: 5%;
+  margin: 25%;
+  color:white;
 }
 .button: hover{
   background: red;
